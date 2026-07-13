@@ -3,6 +3,7 @@
   "name": "AI2Web - AI Readiness Checker",
   "version": "0.1.0",
   "description": "Check any website's AI2Web readiness. See its AI Readiness Score and how well AI agents can discover and use it.",
+  "homepage_url": "https://ai2web.dev",
   "icons": {
     "16": "icons/icon-16.png",
     "48": "icons/icon-48.png",

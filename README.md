@@ -1,5 +1,7 @@
 # AI2Web AI Readiness Checker (Chrome extension)
 
+[![CI](https://github.com/ai2web-foundation/ai2web-chrome/actions/workflows/ci.yml/badge.svg)](https://github.com/ai2web-foundation/ai2web-chrome/actions/workflows/ci.yml)
+
 Click the toolbar icon on any website to see its [AI2Web](https://ai2web.dev) readiness: an AI Readiness Score out of 100, its compliance tier, and the per-capability checks. It tells you at a glance how well AI agents can discover and use that site.
 
 It is a thin client: it reads the active tab's origin and asks the public [AI2Web Validator API](https://github.com/ai2web-foundation/ai2web-validator) (`validator.ai2web.dev`) to score it. No accounts, no tracking, no storage; one request per open.
@@ -11,7 +13,12 @@ It is a thin client: it reads the active tab's origin and asks the public [AI2We
 3. Click **Load unpacked** and select this folder.
 4. Pin the icon, open any site, and click it.
 
-A packaged Chrome Web Store listing will follow.
+## Test and package
+
+- `npm test` - validates the manifest, referenced assets, and the popup render logic.
+- `npm run pack` - builds `ai2web-chrome-<version>.zip` (runtime files only, spec-compliant) for upload.
+
+See [STORE.md](STORE.md) for the full Chrome Web Store submission kit: listing copy, permission justifications, privacy disclosures and publish steps. Privacy policy: [ai2web.dev/privacy](https://ai2web.dev/privacy).
 
 ## Permissions
 

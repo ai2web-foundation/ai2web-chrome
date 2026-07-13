@@ -1,0 +1,11 @@
+{
+  "name": "ai2web-chrome",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "AI2Web AI Readiness Checker - Chrome extension.",
+  "scripts": {
+    "test": "node test/run.mjs",
+    "pack": "powershell -ExecutionPolicy Bypass -File scripts/pack.ps1"
+  }
+}
