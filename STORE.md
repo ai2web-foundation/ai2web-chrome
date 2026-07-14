@@ -1,5 +1,9 @@
 # Chrome Web Store submission kit
 
+> **Status: Published** — live at
+> <https://chromewebstore.google.com/detail/ai2web-ai-readiness-check/dgfgbjlpmhahoafdcfandobbncfjhlle>
+> Keep this file as the reference for future updates and re-submissions.
+
 Everything needed to publish the AI2Web AI Readiness Checker. Copy the fields below
 into the Developer Dashboard. The upload package is built by `npm run pack`
 (`ai2web-chrome-<version>.zip`, runtime files only).

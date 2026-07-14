@@ -1,12 +1,18 @@
 # AI2Web AI Readiness Checker (Chrome extension)
 
 [![CI](https://github.com/ai2web-foundation/ai2web-chrome/actions/workflows/ci.yml/badge.svg)](https://github.com/ai2web-foundation/ai2web-chrome/actions/workflows/ci.yml)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dgfgbjlpmhahoafdcfandobbncfjhlle?label=Chrome%20Web%20Store)](https://chromewebstore.google.com/detail/ai2web-ai-readiness-check/dgfgbjlpmhahoafdcfandobbncfjhlle)
+[![Users](https://img.shields.io/chrome-web-store/users/dgfgbjlpmhahoafdcfandobbncfjhlle?label=users)](https://chromewebstore.google.com/detail/ai2web-ai-readiness-check/dgfgbjlpmhahoafdcfandobbncfjhlle)
 
 Click the toolbar icon on any website to see its [AI2Web](https://ai2web.dev) readiness: an AI Readiness Score out of 100, its compliance tier, and the per-capability checks. It tells you at a glance how well AI agents can discover and use that site.
 
 It is a thin client: it reads the active tab's origin and asks the public [AI2Web Validator API](https://github.com/ai2web-foundation/ai2web-validator) (`validator.ai2web.dev`) to score it. No accounts, no tracking, no storage; one request per open.
 
-## Install (unpacked, for now)
+## Install
+
+**[Get it on the Chrome Web Store &rarr;](https://chromewebstore.google.com/detail/ai2web-ai-readiness-check/dgfgbjlpmhahoafdcfandobbncfjhlle)**
+
+Or run it from source (for development):
 
 1. Open `chrome://extensions`.
 2. Turn on **Developer mode** (top right).
