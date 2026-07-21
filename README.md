@@ -9,6 +9,8 @@
 
 # AI2Web AI Readiness Checker (Chrome extension)
 
+[![AI2Web on Launchpadly - Product of the Week (Gold)](https://launchpadly.co/embed/badges/startup/ai2web.svg?variant=product-week-gold)](https://launchpadly.co/startup/ai2web?ref=badge)
+
 [![CI](https://github.com/ai2web-foundation/ai2web-chrome/actions/workflows/ci.yml/badge.svg)](https://github.com/ai2web-foundation/ai2web-chrome/actions/workflows/ci.yml)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dgfgbjlpmhahoafdcfandobbncfjhlle?label=Chrome%20Web%20Store)](https://chromewebstore.google.com/detail/ai2web-ai-readiness-check/dgfgbjlpmhahoafdcfandobbncfjhlle)
 [![Users](https://img.shields.io/chrome-web-store/users/dgfgbjlpmhahoafdcfandobbncfjhlle?label=users)](https://chromewebstore.google.com/detail/ai2web-ai-readiness-check/dgfgbjlpmhahoafdcfandobbncfjhlle)
